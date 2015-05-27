@@ -8,9 +8,6 @@ import java.io.Serializable;
 import java.util.Set;
 
 
-/**
- * Created on 23.03.15.
- */
 @Entity
 @Table(name = "Department")
 

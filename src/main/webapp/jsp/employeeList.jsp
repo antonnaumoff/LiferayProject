@@ -26,11 +26,6 @@
     <portlet:param name="action" value="departmentList"/>
 </portlet:actionURL>
 
-<div class="container">
-<div class="row">
-<div class="col-sm-2"></div>
-<div class="col-sm-8">
-    <%--<div class="panel panel-primary">--%>
     <div class="panel-heading">
         <div class="custom">Employee List</div>
     </div>
@@ -51,7 +46,6 @@
                 </form>
             </td>
             <td class="my-table-cell3">
-                </form>
                 <form action="${listDepartments}" method="post">
                     <input type="hidden" name="<portlet:namespace/>id_dep" value="${id_dep}"/>
                     <button type="submit" class="btn btn-default btn-lg">
@@ -97,13 +91,7 @@
             </tr>
         </c:forEach>
         </tbody>
-
     </table>
-</div>
-<div class="col-sm-2"></div>
-
-</div>
-</div>
 </body>
 
 

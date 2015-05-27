@@ -18,12 +18,6 @@
 </portlet:actionURL>
 
 
-<div class="container">
-<div class="row">
-
-<div class="col-sm-3"></div>
-<div class="col-sm-6">
-    <%--<div class="panel panel-primary">--%>
     <div class="panel-heading">
         <div class="custom">${not empty department.id && department.id!=0? 'Edit Department' : 'Create Department' }</div>
     </div>
@@ -42,11 +36,6 @@
             <span class="alarma">${message}</span>
         </form>
     </div>
-</div>
-<div class="col-sm-3"></div>
-
-</div>
-</div>
 </body>
 </html>
 

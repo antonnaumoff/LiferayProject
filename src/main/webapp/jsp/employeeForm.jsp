@@ -17,12 +17,6 @@
 </portlet:actionURL>
 
 <body>
-
-<div class="container">
-    <div class="row">
-        <div class="col-sm-3"></div>
-        <div class="col-sm-6">
-            <%--<div class="panel panel-primary">--%>
                 <div class="panel-heading">
                     <div class ="custom">${empty editor ? 'Create Employee':'Edit Employee'}</div>
                 </div>
@@ -67,12 +61,6 @@
                         </div>
                     </form>
                 </div>
-            </div>
-        </div>
-        <div class="col-sm-3"></div>
-    <%--</div>--%>
-</div>
-</div>
 </body>
 </html>
 

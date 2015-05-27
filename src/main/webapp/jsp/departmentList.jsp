@@ -29,12 +29,6 @@
     <portlet:param name="action" value="listEmployees"/>
 </portlet:actionURL>
 
-<div class="container">
-<div class="row">
-
-<div class="col-sm-2"></div>
-<div class="col-sm-8">
-    <%--<div class="panel panel-primary">--%>
     <div class="panel-heading">
         <div class="custom">Departments List</div>
     </div>
@@ -89,11 +83,6 @@
 
         </tbody>
     </table>
-</div>
-<div class="col-sm-2"></div>
-
-</div>
-</div>
 
 </body>
 </html>
